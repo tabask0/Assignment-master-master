@@ -38,26 +38,3 @@ if(window.Promise) {
     })
     .catch(err => console.log("This error won't leave you alone: " + err))
 }}
-
-
-
-// const web = {
-//   title: "Da",
-//   time: "12:00",
-//   date: "12.12.2012",
-//   webinarTitle: "Dadada",
-//   webinarLink: "java.com"
-// }
-// if(web.hasOwnProperty("webinarLink")) {
-//   datashow = `
-//   <div class="container">
-//   <p>Title:${web.title}</p>
-//   <p>Date:${web.time}</p>
-//   <p>Time:${web.date}</p>
-//   <p>TitleWeb:${web.webinarTitle}</p>
-//   <p>LinkWeb:${web.webinarLink}</p>
-//   </div>
-//   `
-//   document.getElementById("test").innerHTML = datashow
-// }
-
