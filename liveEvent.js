@@ -6,7 +6,6 @@ class LiveEvent extends Event {
   }
     getSpecificDataShow(){
       return `
-
       <p>LiveEvent: <li>Location: ${this.location}</li><li>Adress: ${this.adress}</li></p>
       </div>
       `

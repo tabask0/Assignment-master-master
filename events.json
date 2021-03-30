@@ -1,8 +1,8 @@
 [
   {
-    "title": "eCommerce",
-    "date": "12.03.2021",
+    "title": "eCommerce", 
     "time": "4:00 PM",
+    "date": "2021.3.12",
     "webinar": {
       "webinarTitle": "Commerce",
       "webinarLink": "https://google.com"
@@ -11,8 +11,8 @@
   },
   {
     "title": "Javascript Presentation",
-    "date": "14.03.2021",
     "time": "12:00 PM",
+    "date": "2016.7.14",
     "webinar": {
       "webinarTitle": "Gaming",
       "webinarLink": "https://twitch.com"
@@ -20,8 +20,8 @@
   },
   {
     "title": "Personal development webinar",
-    "date": "21.04.2021",
     "time": "8:00 AM",
+    "date": "2021.4.24",
     "LiveEvent": {
       "location": "Cluj",
       "adress": "Centrul Vechi 21"
@@ -29,33 +29,32 @@
     },
     {
       "title": "Birthday Party",
-      "date": "4.11.2021",
       "time": "7:00 PM",
+      "date": "2018.9.20",
       "webinar": {
         "webinarTitle": "Commerce",
         "webinarLink": "https://google.com"
       }
     },
     {
-      "title": "Easter",
-      "date": "4.5.2021",
+      "title": "Easter", 
       "time": "23:00 PM",
+      "date": "2021.5.3",
       "party": {"theme" : " '70s "}
     },
     {
       "title": "Party",
-      "date": "14.11.2025",
       "time": "2:00 PM",
+      "date": "2018.11.14",
       "webinar": {
         "webinarTitle": "Com",
         "webinarLink": "https://google.com"
-      },
-      "party": {"theme" : " '70s "}
+      }
     },
     {
       "title": "Birthday",
-      "date": "30.11.2021",
       "time": "7:00 PM",
+      "date": "2020.01.01",
       "LiveEvent": {
         "location": "Cluj",
         "adress": "Centrul Vechi 21"

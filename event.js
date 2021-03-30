@@ -2,7 +2,7 @@ class Event {
     constructor(title, time, date){
          this.title = title
          this.time = time
-         this.date = JSON.stringify(new Date(date))
+         this.date = new Date(date)
         }
 
         getGenericDataShow(){
