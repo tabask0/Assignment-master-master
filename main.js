@@ -1,3 +1,5 @@
+const eventsArray = []
+
 if(window.Promise) {
     var promise = new Promise(function(resolve, reject) {
       var xhr = new XMLHttpRequest();
@@ -12,25 +14,50 @@ if(window.Promise) {
       xhr.send();
     });
 
-   function show(){  promise.then(function(data) {
+   function show() {
+      promise.then(function(data) {
       data = JSON.parse(data)
-      let datashow = data.map(element => 
-        `
-      <div class="container">
-      <p>Title: ${element.title}</p>
-      <p>Date: ${element.date}</p>
-      <p>Time: ${element.time}</p>
-      <p>Webinar: <li>Title: ${element.webinar.title}</li><li>Link: ${element.webinar.link}</li></p>
-      <p>LiveEvent: <li>Location: ${element.liveEvent.location}</li><li>Adress: ${element.liveEvent.adress}</li></p>
-      <p>Theme: ${element.theme}</p>
-      </div>
-      `
-      ).join(" ")
-      console.log(data)
-      document.getElementById("show").innerHTML = datashow;
+      data.map(element => {
+        let event;
+        if(element.hasOwnProperty("webinar")){
+          event =new Webinar(element.title, element.time, element.date, element.webinar.webinarTitle, element.webinar.webinarLink)
+        }
+        if(element.hasOwnProperty("LiveEvent")){
+          event =new LiveEvent(element.title, element.time, element.date, element.LiveEvent.adress, element.LiveEvent.location)
+        }
+        if(element.hasOwnProperty("party")){
+          event =new Party(element.title, element.time, element.date, element.party.theme)
+        }
+        eventsArray.push(event)
+      })
+      eventsArray.forEach(data => {
+        datashow = data.getDataShow()
+        document.getElementById("show").innerHTML += datashow
+        console.log(data)
+      })
     })
     .catch(err => console.log("This error won't leave you alone: " + err))
 }}
 
 
+
+// const web = {
+//   title: "Da",
+//   time: "12:00",
+//   date: "12.12.2012",
+//   webinarTitle: "Dadada",
+//   webinarLink: "java.com"
+// }
+// if(web.hasOwnProperty("webinarLink")) {
+//   datashow = `
+//   <div class="container">
+//   <p>Title:${web.title}</p>
+//   <p>Date:${web.time}</p>
+//   <p>Time:${web.date}</p>
+//   <p>TitleWeb:${web.webinarTitle}</p>
+//   <p>LinkWeb:${web.webinarLink}</p>
+//   </div>
+//   `
+//   document.getElementById("test").innerHTML = datashow
+// }
 
