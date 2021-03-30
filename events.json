@@ -4,37 +4,25 @@
     "date": "12.03.2021",
     "time": "4:00 PM",
     "webinar": {
-      "title": "Commerce",
-      "link": "https://google.com"
-    },
-    "liveEvent": {
-      "location": "Bucharest",
-      "adress": "Piata Unirii 1"
-    },
-    "theme": "Disney Princess"
+      "webinarTitle": "Commerce",
+      "webinarLink": "https://google.com"
+    }
+   
   },
   {
     "title": "Javascript Presentation",
     "date": "14.03.2021",
     "time": "12:00 PM",
     "webinar": {
-      "title": "Gaming",
-      "link": "https://twitch.com"
-    },
-    "liveEvent": { 
-      "location": "Bucharest",
-      "adress": "Remote"
+      "webinarTitle": "Gaming",
+      "webinarLink": "https://twitch.com"
     }
   },
   {
     "title": "Personal development webinar",
     "date": "21.04.2021",
     "time": "8:00 AM",
-    "webinar": {
-      "title": "Personal development webinar",
-      "link": "https://meet.google.com"
-    },
-    "liveEvent": {
+    "LiveEvent": {
       "location": "Cluj",
       "adress": "Centrul Vechi 21"
     }
@@ -44,55 +32,33 @@
       "date": "4.11.2021",
       "time": "7:00 PM",
       "webinar": {
-        "title": "Commerce",
-        "link": "https://google.com"
-      },
-      "liveEvent": {
-        "location": "Cluj",
-        "adress": "Centrul Vechi 21"
-      },
-      "theme": " '70s "
+        "webinarTitle": "Commerce",
+        "webinarLink": "https://google.com"
+      }
     },
     {
       "title": "Easter",
       "date": "4.5.2021",
       "time": "23:00 PM",
-      "webinar": {
-        "title": "Commerce",
-        "link": "https://amazon.com"
-      },
-      "liveEvent": {
-        "location": "Ireland",
-        "adress": "Centrul Vechi 21"
-      },
-      "theme": " '70s "
+      "party": {"theme" : " '70s "}
     },
     {
       "title": "Party",
       "date": "14.11.2025",
       "time": "2:00 PM",
       "webinar": {
-        "title": "Com",
-        "link": "https://google.com"
+        "webinarTitle": "Com",
+        "webinarLink": "https://google.com"
       },
-      "liveEvent": {
-        "location": "Timis",
-        "adress": "Centrul Vechi 21"
-      },
-      "theme": " '70s "
+      "party": {"theme" : " '70s "}
     },
     {
       "title": "Birthday",
       "date": "30.11.2021",
       "time": "7:00 PM",
-      "webinar": {
-        "title": "Drinks",
-        "link": "https://drinks.com"
-      },
-      "liveEvent": {
+      "LiveEvent": {
         "location": "Cluj",
         "adress": "Centrul Vechi 21"
-      },
-      "theme": " '70s "
+      }
     }
 ]
