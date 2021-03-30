@@ -1,6 +1,6 @@
 class Party extends Event {
-  constructor(title, time, date, theme){
-      super(title, time, date)
+  constructor(title, date, description, theme){
+      super(title, date, description)
       this.theme = theme
   }
 

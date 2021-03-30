@@ -1,6 +1,6 @@
 class LiveEvent extends Event {
-  constructor(title, time, date, location, adress){
-      super(title, time, date)
+  constructor(title, date, description, location, adress){
+      super(title, date, description)
       this.location = location
       this.adress = adress
   }

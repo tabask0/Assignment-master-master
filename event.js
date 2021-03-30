@@ -1,8 +1,8 @@
 class Event {
-    constructor(title, time, date){
+    constructor(title, date, description){
          this.title = title
-         this.time = time
          this.date = new Date(date)
+         this.description = description 
         }
 
         getGenericDataShow(){
@@ -10,7 +10,7 @@ class Event {
             <div class="container">
             <p>Title: ${this.title}</p>
             <p>Date: ${this.date}</p>
-            <p>Time: ${this.time}</p>
+            <p>Description: ${this.description}</p>
             
             `
         }

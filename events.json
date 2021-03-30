@@ -1,27 +1,25 @@
 [
   {
     "title": "eCommerce", 
-    "time": "4:00 PM",
-    "date": "2021.3.12",
+    "date": "October 12, 2020 10:30",
+    "description": "This is a eCommerce webinar.",
     "webinar": {
-      "webinarTitle": "Commerce",
       "webinarLink": "https://google.com"
     }
    
   },
   {
     "title": "Javascript Presentation",
-    "time": "12:00 PM",
-    "date": "2016.7.14",
+    "date": "July 4, 2021 12:45",
+    "description": "Here you can see my JS presentation.",
     "webinar": {
-      "webinarTitle": "Gaming",
       "webinarLink": "https://twitch.com"
     }
   },
   {
-    "title": "Personal development webinar",
-    "time": "8:00 AM",
-    "date": "2021.4.24",
+    "title": "Personal development",
+    "date": "January 2, 2021 16:15",
+    "description": "Come and start developing youself!",
     "LiveEvent": {
       "location": "Cluj",
       "adress": "Centrul Vechi 21"
@@ -29,32 +27,33 @@
     },
     {
       "title": "Birthday Party",
-      "time": "7:00 PM",
-      "date": "2018.9.20",
-      "webinar": {
-        "webinarTitle": "Commerce",
-        "webinarLink": "https://google.com"
+      "date": "August 30, 2020 22:30",
+      "description": "Everyone is invited at my birthday party!",
+      "party": {
+        "theme": "Rock'N Roll"
       }
     },
     {
       "title": "Easter", 
-      "time": "23:00 PM",
-      "date": "2021.5.3",
-      "party": {"theme" : " '70s "}
-    },
-    {
-      "title": "Party",
-      "time": "2:00 PM",
-      "date": "2018.11.14",
-      "webinar": {
-        "webinarTitle": "Com",
-        "webinarLink": "https://google.com"
+      "date": "April 3, 2021 7:00",
+      "description": "We wish you a Happy Easter!",
+      "party": {
+        "theme" : " '70s "
       }
     },
     {
-      "title": "Birthday",
-      "time": "7:00 PM",
-      "date": "2020.01.01",
+      "title": "Car Meeting",
+      "date": "May 2020, 19:30",
+      "description": "Come and show your beast!",
+      "LiveEvent": {
+        "location": "Brooklyn",
+        "adress": "Grove Street 28"
+      }
+    },
+    {
+      "title": "Statue Celebration",
+      "date": "February 17, 2021 12:50",
+      "description": "This is our 5th statue!",
       "LiveEvent": {
         "location": "Cluj",
         "adress": "Centrul Vechi 21"
