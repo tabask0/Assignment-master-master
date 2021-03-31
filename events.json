@@ -1,7 +1,7 @@
 [
   {
     "title": "eCommerce", 
-    "date": "October 12, 2020 10:30",
+    "date": "2020-10-20 10:30",
     "description": "This is an eCommerce webinar.",
     "webinar": {
       "webinarLink": "https://google.com"
@@ -10,7 +10,7 @@
   },
   {
     "title": "Javascript Presentation",
-    "date": "July 4, 2021 12:45",
+    "date": "2021-6-16 12:45",
     "description": "Here you can see my JS presentation.",
     "webinar": {
       "webinarLink": "https://twitch.com"
@@ -18,7 +18,7 @@
   },
   {
     "title": "Personal development",
-    "date": "January 2, 2021 16:15",
+    "date": "2021-1-24 16:15",
     "description": "Come and start developing youself!",
     "LiveEvent": {
       "location": "Cluj",
@@ -27,7 +27,7 @@
     },
     {
       "title": "Birthday Party",
-      "date": "August 30, 2020 22:30",
+      "date": "2020-8-21 22:30",
       "description": "Everyone is invited at my birthday party!",
       "party": {
         "theme": "Rock'N Roll"
@@ -35,7 +35,7 @@
     },
     {
       "title": "Easter", 
-      "date": "April 3, 2021 7:00",
+      "date": "2021-3-5 7:00",
       "description": "We wish you a Happy Easter!",
       "party": {
         "theme" : " '70s "
@@ -43,7 +43,7 @@
     },
     {
       "title": "Car Meeting",
-      "date": "May 2020, 19:30",
+      "date": "2020-5-9 19:30",
       "description": "Come and show your beast!",
       "LiveEvent": {
         "location": "Brooklyn",
@@ -52,7 +52,7 @@
     },
     {
       "title": "Statue Celebration",
-      "date": "February 17, 2021 12:50",
+      "date": "2021-1-6 12:50",
       "description": "This is our 5th statue!",
       "LiveEvent": {
         "location": "Cluj",

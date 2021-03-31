@@ -1,7 +1,7 @@
 class Event {
     constructor(title, date, description){
          this.title = title
-         this.date = new Date(date).toISOString()
+         this.date = new Date(date)
          this.description = description 
         }
 
