@@ -21,11 +21,9 @@ if(window.Promise) {
         let event;
         if(element.hasOwnProperty("webinar")){
           event =new Webinar(element.title, element.date, element.description, element.webinar.webinarLink)
-        }
-        if(element.hasOwnProperty("LiveEvent")){
+        }else if(element.hasOwnProperty("LiveEvent")){
           event =new LiveEvent(element.title, element.date, element.description, element.LiveEvent.adress, element.LiveEvent.location)
-        }
-        if(element.hasOwnProperty("party")){
+        } else if(element.hasOwnProperty("party")){
           event =new Party(element.title, element.date, element.description, element.party.theme)
         }
         eventsArray.push(event)
